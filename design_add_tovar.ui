@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>648</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>15</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>15</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Введите штрих код </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+color: rgb(255, 31, 11);</string>
+       </property>
+       <property name="text">
+        <string>Минимум три символа</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Введите наименование продукции</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+color: rgb(255, 31, 11);</string>
+       </property>
+       <property name="text">
+        <string>Наоминание! Так вы можете добавить только НЕ алколольную продукцию</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Наименование продукции из общего справочника</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Единица измерения</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Владелец</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Цена</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Категория товара</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Microsoft YaHei&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Марикировка</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+         </property>
+         <property name="text">
+          <string>Добавить</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Microsoft YaHei&quot;;
+background-color:  rgb(250, 239, 214);
+border-radius: 15px</string>
+         </property>
+         <property name="text">
+          <string>Отмена</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
